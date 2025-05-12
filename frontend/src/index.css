@@ -1,0 +1,41 @@
+/* Import Bootstrap 5 */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Custom variables for LinkedIn theme */
+:root {
+  --linkedin-primary: #0077B5;
+  --linkedin-secondary: #00a0dc;
+  --linkedin-light: #e8f4f9;
+  --linkedin-gray: #707070;
+  --linkedin-darkgray: #434649;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb;
+}
+
+/* Override some Bootstrap styles with LinkedIn theme */
+.btn-primary {
+  background-color: var(--linkedin-primary);
+  border-color: var(--linkedin-primary);
+}
+
+.btn-primary:hover {
+  background-color: #006097;
+  border-color: #006097;
+}
+
+
+.bg-linkedin {
+    background-color: var(--linkedin-primary);
+  }
+  
+  .text-linkedin {
+    color: var(--linkedin-primary);
+  }
+  
+  .bg-linkedin-light {
+    background-color: var(--linkedin-light);
+  }
